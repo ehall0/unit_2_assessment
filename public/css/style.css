@@ -23,3 +23,10 @@ ul{
     font-weight: bold;
 }
 
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:1vh;
+    padding-right: 8vh;
+}

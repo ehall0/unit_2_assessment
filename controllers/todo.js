@@ -48,7 +48,13 @@ todoController.post('/', (req, res)=>{
     })
 });
 
-
+// ///////Delete Route////////
+todoController.delete('/:id',(req,res) =>{
+    Todo.findByIdAndRemove(req.params.id,(err, data)=> {
+         res.redirect(`/todo/`)
+     })
+  })
+ 
 
 
 

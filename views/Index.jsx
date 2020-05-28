@@ -20,7 +20,12 @@ class Index extends React.Component {
                  {
                    this.props.todos.map((todo, i) => {
                     return (
+                        <div className="list-item">
                        <li>{todo.item}</li>
+                       <form action ={`/todo/${todo._id}?_method=DELETE`} method ="post">
+                                    <input className="btn btn-danger" type="submit" value="delete"/>
+                                  </form>
+                                  </div>
                         )
                     })
                 }
