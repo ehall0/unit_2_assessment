@@ -15,6 +15,7 @@ class Index extends React.Component {
                
                 <input className="btn btn-secondary" type="submit" name="" value="ADD TO DO"/>
              </form>
+             {this.props.todos.length < 1 ? <h3 className='empty-list'>there are no things to do yet</h3> : ''}
                 <ul>
                  {
                    this.props.todos.map((todo, i) => {

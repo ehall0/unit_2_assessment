@@ -3,7 +3,10 @@ html, body{
     background-repeat: no-repeat;
     height: 100%;
 }
-
+.empty-list{
+    padding-left:8vh;
+    margin-top:3vh;
+}
 .newForm{
     padding-left: 8vh;
     padding-right:8vh;
