@@ -1,0 +1,22 @@
+html, body{
+    background-image: linear-gradient(lightblue, rgba(238, 131, 238, 0.212));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.newForm{
+    padding-left: 8vh;
+    padding-right:8vh;
+    margin-top:3vh;
+}
+h1{
+    margin-top:3vh;
+    margin-left:3vh;
+}
+ul{
+    padding-left:10vh;
+    margin-top:3vh;
+    line-height: 3.5vh;
+    font-weight: bold;
+}
+
